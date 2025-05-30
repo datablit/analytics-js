@@ -57,8 +57,8 @@ class Analytics {
         this.context = {
             userAgentData: userAgentData,
             library: {
-                name: "@d1414k/analytics-js",
-                version: "1.0.3"
+                name: "@datablit/analytics-js",
+                version: "1.0.1" // make sure to update to sync this with package json
             }
         };
         if (config.batchSize) this.batchSize = config.batchSize;
